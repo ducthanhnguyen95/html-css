@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        #products {
+
+        }
+        .product {
+
+        }
+
+        /* a[target="_blank"] {
+            color: blue;
+        } */
+
+        /* a[href="https://google.com"] {
+            color: blueviolet;
+        } */
+
+        /* a[href*="google"] {
+            color: blueviolet;
+        } */
+
+        /* a[href^="https"] {
+            color: red;
+        } */
+
+        /* a[href$="com"] {
+            color: red;
+        } */
+
+        a[href^="https"][href$="com"] {
+            color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <section id="products">
+      <article class="product"></article>
+      <article class="product"></article>
+      <article class="product"></article>
+    </section>
+    <a href="https://google.com" target="_blank">Google</a>
+  </body>
+</html>
