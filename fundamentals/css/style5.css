@@ -1,0 +1,29 @@
+/* h1 {
+    color: dodgerblue !important
+} */
+
+h1 {
+  color: dodgerblue;
+}
+.highlight {
+  color: deeppink;
+}
+
+#products {
+  color: greenyellow;
+}
+#products {
+  color: brown;
+}
+
+/* #products.highlight {
+    color: dodgerblue;
+} */
+
+/* h1#products {
+    color: red;
+} */
+
+.feature #products {
+  color: dodgerblue;
+}
