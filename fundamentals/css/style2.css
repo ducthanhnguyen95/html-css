@@ -1,0 +1,15 @@
+/* #products p {
+  color: orange;
+} */
+
+#products > p {
+  color: orange;
+}
+
+#products + p {
+  color: red;
+}
+
+#products ~ p {
+    color: blue;
+  }
