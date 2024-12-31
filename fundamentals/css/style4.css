@@ -1,0 +1,32 @@
+/* .first-letter {
+    font-size: 140%;
+    font-weight: bold;
+} */
+
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+
+}
+
+P::first-line {
+  font-weight: bold;
+}
+
+/* p::selection {
+    background-color: deeppink;
+} */
+
+::selection {
+  background-color: deeppink;
+}
+
+p::before {
+    content: "...";
+    display: block;
+}
+
+p::after {
+    content: "...";
+    display: block;
+}
