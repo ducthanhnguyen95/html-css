@@ -1,0 +1,8 @@
+.box {
+  width: 200px;
+  height: 200px;
+  /* background-color: rgba(230, 205, 16, 0.5); */
+  /* background-color: #fcba03; */
+  /* background-color: hsl(158, 100%, 40%); */
+  background-color: hsla(158, 100%, 40%, 1);
+}
