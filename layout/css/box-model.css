@@ -1,0 +1,5 @@
+p {
+  /*padding: 10px 20px 10px 20px; /*trbl*/
+  padding: 10px 20px 10px 20px; /* vertical horizontal*/
+  border: 5px solid gold;
+}
