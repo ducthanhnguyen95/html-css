@@ -1,17 +1,17 @@
 .box {
-    /* width: 600px; */
-    width: 200px;
-    height: 200px;
-    background: dodgerblue;
-    /* border: 10px solid red; */
-    /* border: 10px dotted red; */
-    border: 10px dashed red;
-    border-top: 20px solid royalblue;
-    /*trbl (top, right, bottom, left)*/
-    /* border-width: 10px 20px 10px 20px;  */
-    /* border-width: 10px 20px; */
-    /* border-width: 10px;
+  /* width: 600px; */
+  width: 200px;
+  height: 200px;
+  background: dodgerblue;
+  /* border: 10px solid red; */
+  /* border: 10px dotted red; */
+  border: 10px dashed red;
+  border-top: 20px solid royalblue;
+  /*trbl (top, right, bottom, left)*/
+  /* border-width: 10px 20px 10px 20px;  */
+  /* border-width: 10px 20px; */
+  /* border-width: 10px;
     border-style: groove;
     border-color: ; */
-    border-radius: 100%;
+  border-radius: 100%;
 }

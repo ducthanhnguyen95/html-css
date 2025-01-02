@@ -1,9 +1,9 @@
 p {
-    color: dodgerblue;
-    border: 1px solid black;
+  color: dodgerblue;
+  border: 1px solid black;
 }
 
 strong {
-    color: initial;
-    border: inherit;
+  color: initial;
+  border: inherit;
 }

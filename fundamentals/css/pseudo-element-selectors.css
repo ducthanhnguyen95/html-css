@@ -6,7 +6,6 @@
 p::first-letter {
   font-size: 140%;
   font-weight: bold;
-
 }
 
 P::first-line {
@@ -22,11 +21,11 @@ P::first-line {
 }
 
 p::before {
-    content: "...";
-    display: block;
+  content: "...";
+  display: block;
 }
 
 p::after {
-    content: "...";
-    display: block;
+  content: "...";
+  display: block;
 }
