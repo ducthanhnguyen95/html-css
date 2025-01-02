@@ -1,4 +1,6 @@
-* {
+*,
+*.box::before,
+*::after {
   box-sizing: border-box;
 }
 .box::before {
