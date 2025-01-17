@@ -4,6 +4,11 @@
     url("fonts/open-sans/opensans-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  /* font-display: auto; */
+  /* font-display: swap; */
+  /* font-display: block; */
+  /* font-display: fallback; */
+  font-display: optional;
 }
 
 @font-face {
@@ -15,7 +20,7 @@
 }
 body {
   margin: 10px;
-  font-family: 'opensans', Arial, Helvetica, sans-serif;
+  font-family: "opensans", Arial, Helvetica, sans-serif;
 }
 
 h1 {
