@@ -1,0 +1,33 @@
+/* p + p {
+  with: 50ch;
+  text-align: left;
+  text-indent: 1rem;
+  text-decoration: underline;
+} */
+
+/* p {
+  width: 50ch;
+  text-align: left;
+  text-indent: 1rem;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  text-transform: capitalize;
+  white-space: nowrap;
+  border: 3px solid gold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 3;
+} */
+
+/* p {
+    width: 50ch;
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 3px dotted #999;
+} */
+
+p {
+    width: 50ch;
+    direction: rtl;
+}
