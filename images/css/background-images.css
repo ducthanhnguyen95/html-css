@@ -1,0 +1,15 @@
+body {
+  /* background: url(../imgaes/bg-paper.jpg); */
+  /* background: url(../imgaes/bg-paper@2x.jpg); */
+  background: url(../imgaes/bg-sanfrancisco.jpg);
+  /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+  background-repeat: no-repeat;
+  /* background-position: -100px 100px; */
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  background-attachment: fixed;
+  /* height: 100vh; */
+  /*height will disable when background-attachment is fixed (100vh)*/
+  height: 300vh;
+}
