@@ -4,23 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/supporting-high-density-screens.css">
+    <link rel="stylesheet" href="css/supporting-high-density-screens.css" />
   </head>
   <body>
-    <img
+    <!-- <img
+      <img
+      src="images/meal.jpg"
+      alt="A bowl of salmon and curry"
+      class="meal"
+    /> -->
     <img
       src="images/meal.jpg"
       alt="A bowl of salmon and curry"
       class="meal"
-    />
-    <img
-      src="images/meal.jpg"
-        alt="A bowl of salmon and curry"
-      class="meal"
       srcset="
-        images/meal.jpg 1x,
-        images/meal@2x.jpg 2x,
-        images/meal@3x.jpg 3x
+        images/meal.jpg     400w,
+        images/meal@2x.jpg  800w,
+        images/meal@3x.jpg 1200w
+      "
+      sizes="
+      (max-with: 500px) 100vw,
+      (max-with: 700px) 50vw,
+       33vw
       "
     />
   </body>
