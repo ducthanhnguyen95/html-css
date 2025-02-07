@@ -1,0 +1,52 @@
+<!-- 
+    * BEM (Block element modifier)
+    Block:
+        card
+
+    Element:
+        Các thành phần bên trong block nên đặt tên theo mẫu: block__element.
+        Ví dụ:
+            Header: card__header
+            Price: card__price
+            Body: card__body
+            Button (nếu button thuộc về card): card__button hoặc card__btn
+
+    Modifier:
+        card--popular
+
+-->
+
+<!-- 
+
+Tổng kết
+    Block: 
+        card là khối chính của giao diện.
+    Modifier: 
+        card--popular thay đổi kiểu dáng/trạng thái của block card để thể hiện rằng đây là card phổ biến.
+    Elements:
+        card__header là phần tiêu đề của card.
+        card__price là phần hiển thị giá, thuộc về card.
+        card__body là phần thân chứa nội dung chính của card.
+    Button: 
+        btn có thể là một block độc lập hoặc cần được đổi tên thành card__btn nếu thuộc về block card.
+    Việc áp dụng BEM như trên giúp đảm bảo code HTML/CSS trở nên rõ ràng, dễ bảo trì và hạn chế xung đột giữa các class.
+    
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card card--popular">
+      <header class="card__header">
+        <span class="card__price"></span>
+      </header>
+      <div class="card__body">
+        <button class="btn"></button>
+      </div>
+    </div>
+  </body>
+</html>
